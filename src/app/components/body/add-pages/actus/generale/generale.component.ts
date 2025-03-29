@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-generale',
-  templateUrl: './generale.component.html',
-  styleUrls: ['./generale.component.css']
+    selector: 'app-generale',
+    templateUrl: './generale.component.html',
+    styleUrls: ['./generale.component.css'],
+    standalone: false
 })
 export class GeneraleComponent {
 
